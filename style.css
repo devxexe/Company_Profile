@@ -7,6 +7,16 @@
 	height:7.5vw;
 }
 
+@media (max-width:576px) and (min-width:100px){
+    .navbar{
+	height:10vw;
+	background-color:transparent;
+}
+.navbar .nav-logo{
+	height:12vw;
+}
+}
+
 
 
 /* NAVBAR END  */
@@ -244,3 +254,4 @@
 
 
 /* BUSINESS END */
+
