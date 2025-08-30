@@ -112,7 +112,7 @@
 .grow .row .col1 h2{
     font-size:7.5vw;
     font-family:"Graphik Medium",sans-serif;
-    font-weight:600;
+    font-weight:800;
     animation:color 15s ease-in-out 0s alternate;
 }
 .grow .row .col1 p{
@@ -318,3 +318,4 @@
 /* WHAT WE DO SCREEN BETWEEN 576PX AND 100PX */
 
 /* WHAT WE DO END */
+
