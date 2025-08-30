@@ -38,24 +38,24 @@
 }
 .grow .row .col1 h2{
     font-size:6vw;
-    font-family:Agency FB;
+    font-family:"Graphik Medium",sans-serif;
     font-weight:600;
-    animation:color 15s ease-in-out 0s alternate;
+    animation:color 15s ease-in-out 0s infinite;
 }
 .grow .row .col1 p{
     font-size:1.5vw;
-    font-family:Book Antiqua;
+    font-family:Graphik,sans-serif;
 }
 .grow .row .col1 button{
-    height:4vw;
-    width:10vw;
+    height:4.5vw;
+    width:12vw;
     background-color:black;
     color:white;
     font-size:1.75vw;
     border-radius:4vw;
     border:0;
     margin-top:2.5vw;
-    font-family:Agency FB;
+    font-family:Graphik,sans-serif;
 }
 
 
@@ -111,13 +111,13 @@
 }
 .grow .row .col1 h2{
     font-size:7.5vw;
-    font-family:Agency FB;
+    font-family:"Graphik Medium",sans-serif;
     font-weight:600;
     animation:color 15s ease-in-out 0s alternate;
 }
 .grow .row .col1 p{
     font-size:2.5vw;
-    font-family:Book Antiqua;
+    font-family:Graphik,sans-serif;
 }
 .grow .row .col1 button{
     height:8vw;
@@ -128,7 +128,7 @@
     border-radius:4vw;
     border:0;
     margin-top:2.5vw;
-    font-family:Agency FB;
+    font-family:Graphik,sans-serif;
 }
 }
 /* GROW WITH SCREEN BETWEEN 576PX AND 100PX  */
@@ -144,7 +144,7 @@
 .need h2{
     font-size:2.5vw;
     color:black;
-    font-family:Agency FB;
+    font-family:"Graphik Medium",sans-serif;
 }
 .need .row{
     margin-top:2vw;
@@ -235,23 +235,86 @@
 /* WHAT YOU NEED END  */
 
 
-/* BUSINESS START */
-/* .business{
-    height:40vw;
-    background-color:red;
-    padding:2.5vw;
+/* WHAT WE DO START */
+.we-do{
+    height:60vw;
+    background-color:transparent;
+    padding:2.5vw 5vw 0vw 5vw;
 }
-.business .row{
-    height:30vw;
-    background-color:green;
+.we-do .chair-man{
+    height:10vw;
+    float:right;
+    position:relative;
+    top:-10px;
 }
-.business .row .cols{
-    height:100%;
-    background-color:grey;
-} */
+.we-do h2{
+    font-size:3.5vw;
+    font-family:"Graphik Medium",sans-serif;
+    font-weight:600;
+    margin-top:5vw;
+}
+.we-do p{
+    font-size:1.25vw;
+    font-family:Graphik,sans-serif;
+    background-color: transparent;
+    text-align:center;
+}
+.we-do .row{
+    height:auto;
+    margin-top:10vw;
+    background-color:transparent;
+}
+.we-do .row .cols{
+    background-color:transparent;
+}
+.we-do .row .cols .span2{
+    font-size:1.25vw !important;
+}
+.we-do .row .cols p{
+    font-size:1.25vw;
+    color:#999e9e;
+    font-family:Graphik,sans-serif;
+    background-color: transparent;
+    text-align:left;
+    margin-left:1vw;
+    margin-right:1vw;
+}
 
 
+/* WHAT WE DO SCREEN BETWEEN 576PX AND 100PX */
+@media (max-width:576px) and (min-width:100px){
+.we-do{
+    height:185vw;
+}
+.we-do h2{
+    font-size:5.5vw;
+    margin-left:10vw;
+}
+.we-do p{
+    font-size:2.25vw;
+    margin-left:0vw !important;
+}
 
+.we-do .row .cols .title{
+    text-align:center;
+}
+.we-do .row .cols .span1{
+    font-size:17.5vw !important;
+}
+.we-do .row .cols .D{
+    margin-left:-15vw;
+}
+.we-do .row .cols .span2{
+    font-size:3.5vw !important;
+}
+.we-do .row .cols p{
+    text-align:center !important;
+    margin-left:7.5vw !important;
+    margin-right:7.5vw !important;
+    font-size:2.25vw !important;
+}
+    
+}
+/* WHAT WE DO SCREEN BETWEEN 576PX AND 100PX */
 
-/* BUSINESS END */
-
+/* WHAT WE DO END */
