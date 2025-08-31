@@ -155,7 +155,7 @@
 .need .row .cols{
     height:18vw;
     width:100%;
-    background-color:transparent;
+    background-color:white;
     border-radius:0.25vw;
     overflow:hidden;
 }
@@ -190,7 +190,7 @@
     padding:5vw;
 }
 .need h2{
-    font-size:7.5vw;
+    font-size:5.5vw;
 }
 .need .row{
     padding:10vw;
@@ -255,6 +255,7 @@
 }
 .we-do p{
     font-size:1.25vw;
+    color:#999e9e;
     font-family:Graphik,sans-serif;
     background-color: transparent;
     text-align:center;
@@ -319,3 +320,166 @@
 
 /* WHAT WE DO END */
 
+/* SPECIALIZATION START  */
+.specialization{
+    height:50vw;
+    background-color:transparent;
+}
+.specialization .title{
+    height:12vw;
+    background-color:transparent;
+    display:flex;
+}
+.specialization .title img{
+    height:100%;
+    position:relative;
+    left:0vw;
+}
+.specialization .title h2{
+    font-size:3.5vw;
+    font-family:"Graphik Medium",sans-serif;
+    font-weight:600;
+    position:relative;
+    left:25vw;
+    line-height:12.5vw;
+}
+.specialization p{
+    font-size:1.5vw;
+    color:#999e9e;
+    font-family:Graphik,sans-serif;
+    background-color: transparent;
+    margin-top:2.5vw;
+}
+.specialization .row{
+    height:20vw;
+    padding:0vw 5vw 0vw 5vw;
+    margin-top:5vw;
+}
+.specialization .row .cols{
+    height:100%;
+    background-color:transparent;
+}
+.specialization .row .cols i{
+    font-size:7vw; 
+    color:#f0dd37;
+}
+.specialization .row .cols h3{
+    font-size:1.75vw; 
+    font-family:"Graphik Medium",sans-serif;
+    margin-top:2vw;
+}
+.specialization .row .cols p{
+    font-size:1.2vw; 
+    font-family:"Graphik Medium",sans-serif;
+    margin-top:2vw;
+}
+
+/* SPECIALIZATION SCREEN BETWEEN 576PX AND 100PX */
+@media (max-width:576px) and (min-width:100px){
+.specialization{
+    height:165vw;
+}
+.specialization .title{
+    height:17.5vw;
+}
+.specialization img{
+    height:100%;
+}
+.specialization h2{
+    font-size:4.5vw !important;
+    line-height:17.5vw !important;
+    margin-left:-12.5vw !important;
+}
+.specialization p{
+    font-size:2.5vw !important;
+    padding:0vw 10vw 0vw 10vw;
+}
+.specialization .row{
+    height:115vw !important;
+    padding:0vw 10vw 0vw 10vw;
+    margin-top:0vw !important;
+}
+.specialization .cols{
+    height:75% !important;
+    margin-top:7.5vw !important;
+}
+.specialization .cols h3{
+    font-size:2.5vw !important;
+}
+.specialization .cols p{
+    padding:0vw !important;
+}
+
+}
+/* SPECIALIZATION SCREEN BETWEEN 576PX AND 100PX */
+/* SPECIALIZATION END  */
+
+/* PERCENT START  */
+.percent{
+    height:20vw;
+    background-color:transparent;
+    padding:0vw 5vw 0vw 5vw;
+}
+.percent .row{
+    background-color:transparent;
+    height:17.5vw;
+}
+.percent .row .cols{
+    height:5vw;
+    background-color:transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.percent .row .cols .sub-title{
+    width:100%;
+    background-color:transparent;
+    font-size:1.25vw;
+    font-weight:600;
+    font-family:"Graphik Medium",sans-serif;
+}
+.percent .row .cols .bar{
+    height:1.5vw;
+    width:100%;
+    background-color:transparent;
+}
+
+/* PERCENT SCREEN BETWEEN 576PX AND 100PX */
+@media (max-width:768px) and (min-width:100px) {
+    .percent{
+    height:55vw;
+    padding:0vw 5vw 0vw 5vw;
+}
+.percent .row{
+    height:50vw;
+}
+.percent .row .cols{
+    height:5vw;
+    background-color:transparent;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.percent .row .col1{
+    margin-top:5vw !important;
+}
+.percent .row .col2{
+    margin-top:7.5vw !important;
+}
+.percent .row .cols .sub-title{
+    width:100%;
+    background-color:transparent;
+    font-size:1.75vw;
+    font-weight:600;
+    font-family:"Graphik Medium",sans-serif;
+}
+.percent .row .cols .bar{
+    height:1.75vw;
+    width:100%;
+    background-color:transparent;
+}
+}
+/* PERCENT SCREEN BETWEEN 576PX AND 100PX */
+/* PERCENT END  */
