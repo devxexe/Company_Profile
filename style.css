@@ -1,7 +1,7 @@
 /* NAVBAR START  */
 .navbar{
 	height:10vw;
-	background-color:transparent;
+	background-color:#f5f6fa;
 }
 .navbar .nav-logo{
 	height:7.5vw;
@@ -10,7 +10,7 @@
 @media (max-width:576px) and (min-width:100px){
     .navbar{
 	height:10vw;
-	background-color:transparent;
+	background-color:#f5f6fa;;
 }
 .navbar .nav-logo{
 	height:12vw;
@@ -21,38 +21,50 @@
 
 /* NAVBAR END  */
 
-/* GROW WITH START */
-.grow{
-    height:50vw;
-    background-color:transparent;
+/* BUSINESS WITH START */
+.business{
+    height:55vw;
+    background-color:#f5f6fa;
     padding:5vw 5vw 0 5vw;
-    margin-top:10vw;
+    margin-top:5vw;
 }
 
-.grow .row .cols{
-    height:40vw;
+.business .row .cols{
+    height:45vw;
     background-color:transparent;
 }
-.grow .row .col1{
+.business .row .col1{
     padding:2.5vw;
 }
-.grow .row .col1 h2{
-    font-size:6vw;
+.business .row .col1 .update{
+    height:3vw;
+    width:25vw;
+    background-color:white;
+    border:1px solid #999e9e;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    border-radius:0.5vw;
+}
+.business .row .col1 h2{
+    font-size:2.75vw;
     font-family:"Graphik Medium",sans-serif;
     font-weight:600;
     animation:color 15s ease-in-out 0s infinite;
+    margin-top:2vw;
 }
-.grow .row .col1 p{
-    font-size:1.5vw;
+.business .row .col1 p{
+    font-size:1.25vw;
+    color:#999e9e;
     font-family:Graphik,sans-serif;
 }
-.grow .row .col1 button{
+.business .row .col1 button{
     height:4.5vw;
     width:12vw;
     background-color:black;
     color:white;
     font-size:1.75vw;
-    border-radius:4vw;
+    border-radius:1vw;
     border:0;
     margin-top:2.5vw;
     font-family:Graphik,sans-serif;
@@ -79,61 +91,107 @@
 
 
 
-/* COL2 SWIPPER START */
-.grow .row .col2 .swiper {
-    width: 100%;
-    height: 100%;
+.business .row .col2{
+    height:100%;
+    width:100%;
+    background-color:transparent;
+    padding:3vw;
+} 
+.business .row .col2 form{
+    height:100%;
+    width:100%;
+    background-color:transparent;
+    display:flex !important;
+    justify-content:space-evenly !important;
+    align-items:center !important;
+    flex-wrap:wrap !important;
 }
-.grow .row .col2 .swiper-slide {
-    background-position: center;
-    background-size: cover;
+.business .row .col2 form section{
+    height:6.5vw;
+    width:100%;
+    background-color:transparent;
+    padding-left:6vw;
 }
-.grow .row .col2 .swiper-slide img {
-    display: block;
-    width: 100%;
+.business .row .col2 form section h6{
+    font-size:1.5vw;
+    width:100%;
+    color:#999e9e;
 }
+.business .row .col2 form section h6 i{
+    color:red;
+    font-size:1vw;
+}
+.business .row .col2 form section input{
+    height:3.5vw;
+    width:80%;
+    border-radius:5px;
+    border:0.2vw solid #999e9e !important;
+    margin-top:-0.25vw !important;
+}
+.business .col2 section button{
+    height:4.5vw;
+    width:12vw;
+    background-color:black;
+    color:white;
+    font-size:1.75vw;
+    border-radius:1vw;
+    border:0;
+    margin-top:2.5vw;
+    font-family:Graphik,sans-serif;
+} 
+
+
 /* COL2 SWIPPER END */
 
-/* GROW WITH SCREEN BETWEEN 576PX AND 100PX  */
+/* BUSINESS WITH SCREEN BETWEEN 576PX AND 100PX  */
 @media (max-width:576px) and (min-width:100px){
-    .grow{
+.business{
     height:145vw;
-    background-color:transparent;
+    background-color:#f5f6fa;
     padding:7.5vw 7.5vw 0 7.5vw;
 }
 
-.grow .row .cols{
+.business .row .cols{
     height:60vw;
     background-color:transparent;
 }
-.grow .row .col1{
+.business .row .col1{
     padding:2.5vw;
 }
-.grow .row .col1 h2{
+.business .row .col1 h2{
     font-size:7.5vw;
     font-family:"Graphik Medium",sans-serif;
     font-weight:800;
     animation:color 15s ease-in-out 0s alternate;
 }
-.grow .row .col1 p{
+.business .row .col1 p{
     font-size:2.5vw;
     font-family:Graphik,sans-serif;
 }
-.grow .row .col1 button{
+.business .row .col1 button{
     height:8vw;
     width:20vw;
-    background-color:black;
-    color:white;
     font-size:2.5vw;
     border-radius:4vw;
-    border:0;
     margin-top:2.5vw;
-    font-family:Graphik,sans-serif;
+}
+.business .col2 section{
+    height:8.5vw !important;
+}
+.business .col2 section input{
+    height:5vw !important;
+} 
+.business .row .col2 section button{
+    height:8vw;
+    width:20vw;
+    font-size:2.5vw;
+    border-radius:4vw;
+    margin-top:2.5vw;
 }
 }
-/* GROW WITH SCREEN BETWEEN 576PX AND 100PX  */
+/* BUSINESS WITH SCREEN BETWEEN 576PX AND 100PX  */
 
-/* GROW WITH END */
+/* BUSINESS WITH END */
 
 /* WHAT YOU NEED START  */
 .need{
